@@ -1,9 +1,3 @@
-# basic snake movement program
-
-# additional features added
-# 1. pause and resume game functions
-# 2. start new game and exit options
-
 # import Turtle Graphics module
 import turtle
 # import random module for generating food randomly
@@ -20,7 +14,6 @@ offsets = {
     "down":(0, -20),
     "left":(-20, 0),
     "right":(20, 0),
-    "pause":(0, 0)
 }
 
 def bind_direction_keys():
